@@ -833,6 +833,8 @@
 
 (define-test-suite presentation
   test-presentation-wire-forms
+  test-presentation-repl-marker-wire
+  test-presentation-repl-marker-replay
   test-presentation-model-publishes
   test-presentation-idle-completion-refresh
   test-presentation-idle-completion-retry
